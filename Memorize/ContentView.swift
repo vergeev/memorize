@@ -13,7 +13,7 @@ struct ContentView: View {
             RoundedRectangle(cornerRadius: 25)
                 .stroke(lineWidth: 3)
                 .foregroundColor(.blue)
-                .accentColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                .accentColor(.blue)
             Text("Hello world")
                 .foregroundColor(.green)
                 .bold()
